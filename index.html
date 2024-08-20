@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Holyday Homes DEmo New</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Custom styles-->
         <link href="./css/style.css" rel="stylesheet">
         <!--Bootstarp Framework for Responsiveness-->
@@ -207,64 +209,66 @@
         </div>
         <!--Image and container ends-->
         <!--tabs menu starts-->
-        <div class="container p-2 container1">
-            <!-- Tabs Navigation -->
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Tab 1</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Tab 2</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Tab 3</a>
-                </li>
-            </ul>
-    
-            <!-- Tabs Content -->
-            <div class="tab-content mt-3" id="myTabContent">
-                <!-- Tab 1 -->
-                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                    <div class="d-flex flex-wrap">
-                        <div class="image-container">
-                            <img src="https://via.placeholder.com/600x400" alt="Sample Image 1">
-                        </div>
-                        <div class="text-container">
-                            <h2>Heading 1</h2>
-                            <p>This is a paragraph inside the first tab. The layout adjusts responsively to different screen sizes, stacking the content vertically on smaller screens.</p>
+        <div class="container mt-4">
+            <div id="accordion">
+                <!-- Collapse Item 1 -->
+                <div class="card p-0">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Collapsible Item 1
+                            </button>
+                        </h5>
+                    </div>
+        
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="collapse-item">
+                                        <img src="https://via.placeholder.com/100" alt="Image 1">
+                                        <div class="content">
+                                            <div class="heading">Heading 1</div>
+                                            <div class="paragraph">This is a paragraph for the first collapsible item. It contains some descriptive text.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-    
-                <!-- Tab 2 -->
-                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-                    <div class="d-flex flex-wrap">
-                        <div class="image-container">
-                            <img src="https://via.placeholder.com/600x400" alt="Sample Image 2">
-                        </div>
-                        <div class="text-container">
-                            <h2>Heading 2</h2>
-                            <p>This is a paragraph inside the second tab. The layout remains responsive and mobile-friendly, adjusting as needed.</p>
+                <!-- Collapse Item 2 -->
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Collapsible Item 2
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="collapse-item">
+                                        <img src="https://via.placeholder.com/100" alt="Image 2">
+                                        <div class="content">
+                                            <div class="heading">Heading 2</div>
+                                            <div class="paragraph">This is a paragraph for the second collapsible item. It also contains some descriptive text.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-    
-                <!-- Tab 3 -->
-                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                    <div class="d-flex flex-wrap">
-                        <div class="image-container">
-                            <img src="https://via.placeholder.com/600x400" alt="Sample Image 3">
-                        </div>
-                        <div class="text-container">
-                            <h2>Heading 3</h2>
-                            <p>This is a paragraph inside the third tab. The content is responsive, ensuring a good experience on various devices.</p>
-                        </div>
-                    </div>
-                </div>
+                <!-- Add more collapse items as needed -->
             </div>
         </div>
-        <!--tabs menu ends-->
           <script src="./js/style.js"></script>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
