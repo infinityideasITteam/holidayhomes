@@ -20,4 +20,85 @@
   .custom-margin {
     margin: 20px; /* Apply 20px margin around the element */
   }
-  
+  /* Card Section */
+  /* Optional: Add some margin for better spacing */
+  .card {
+    margin-bottom: 20px;
+}
+/* Image and para section */
+.full-width-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #fff;
+    transform: translateY(-50%);
+}
+.overlay-content h1,
+.overlay-content p {
+    margin: 0;
+}
+.overlay-content h1 {
+    font-size: 2rem;
+}
+.overlay-content p {
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    .overlay-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .overlay-content h1 {
+        font-size: 1.5rem;
+    }
+    .overlay-content p {
+        font-size: 1rem;
+    }
+}
+
+/* Second Carousel  */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+}
+@media (min-width: 768px) {
+    .text-container {
+        padding: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+}
+
+/* Custom HR tag */
+.custom-hr {
+    border: none;
+    border-top: 5px solid #000; /* Line size and color */
+    margin: 20px 0; /* Margin for spacing */
+}
+@media (max-width: 767px) {
+    .custom-hr {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+}
