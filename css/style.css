@@ -142,7 +142,7 @@
     width: 100%;
     padding: 10px;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .tab-pane {
         flex-direction: row;
     }
@@ -152,5 +152,10 @@
     }
     .tab-pane .text-container {
         padding-left: 20px; /* Space between image and text on larger screens */
+    }
+}
+@media (min-width: 768px) {
+    .container1, .container-md, .container-sm {
+        max-width: 720px;
     }
 }
