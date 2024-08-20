@@ -136,15 +136,21 @@
 }
 .tab-pane {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .tab-pane .image-container, .tab-pane .text-container {
-    flex: 1;
-    min-width: 300px;
+    width: 100%;
     padding: 10px;
 }
-.text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media (min-width: 576px) {
+    .tab-pane {
+        flex-direction: row;
+    }
+    .tab-pane .image-container, .tab-pane .text-container {
+        flex: 1;
+        min-width: 0; /* Ensures flexible layout */
+    }
+    .tab-pane .text-container {
+        padding-left: 20px; /* Space between image and text on larger screens */
+    }
 }
