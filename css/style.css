@@ -163,3 +163,52 @@
         text-align: center;
     }
 }
+
+/* Custom Styles for the Get in Touch Section */
+.get-in-touch {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+}
+.get-in-touch h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.get-in-touch p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+.get-in-touch .form-control {
+    margin-bottom: 1rem;
+}
+.get-in-touch .form-check {
+    margin-bottom: 1rem;
+}
+
+/* Footer section */
+.footer {
+    background-color: #ffffff;
+    padding: 2rem 0;
+    color: #333;
+    border-top: 1px solid #ddd;
+}
+.footer h5 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.footer p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+.footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .copyright {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+}
