@@ -1,0 +1,23 @@
+/* Carousel inner image corner */
+.carousel-inner {
+    border-radius: 50px; /* Customize the roundness */
+    overflow: hidden;    /* Ensures images do not overflow outside the rounded corners */
+}
+/* Home page left side image corner */
+.corner{
+    border-radius: 25px;
+}
+/* Home page leftside image Animations */
+.image-zoom {
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+  }
+  
+  .image-zoom:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+  }
+
+  /* About section inner heading paragraph */
+  .custom-margin {
+    margin: 20px; /* Apply 20px margin around the element */
+  }
+  

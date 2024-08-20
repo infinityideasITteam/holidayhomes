@@ -1,0 +1,40 @@
+<div class="container-fluid p-4">
+            <div class="row">
+              <!-- Card 1 -->
+              <div class="col-12 col-md-3 d-flex justify-content-center mb-3" id="s1-animated">
+                <div class="card border-0" style="width: 100%;" id="s1-animates">
+                  <img src="https://via.placeholder.com/500x700" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-12 col-md-3 d-flex justify-content-center mb-4" id="s2-animated">
+                <div class="card border-0" style="width: 100%;" id="s2-animates">
+                  <img src="https://via.placeholder.com/500x700" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-12 col-md-3 d-flex justify-content-center mb-4" id="s3-animated">
+                <div class="card border-0" style="width: 100%;" id="s3-animates">
+                  <img src="https://via.placeholder.com/500x700" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-12 col-md-3 d-flex justify-content-center mb-4" id="s4-animated">
+                <div class="card border-0" style="width: 100%;" id="s4-animates">
+                  <img src="https://via.placeholder.com/500x700" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
