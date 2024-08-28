@@ -1,3 +1,6 @@
+body{
+    background-color: #E8E8E8;
+}
 /* Loading overlay */
 .loading-overlay {
     position: fixed;
