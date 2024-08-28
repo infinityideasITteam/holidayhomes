@@ -1,3 +1,40 @@
+/* Loading overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Loading animation */
+.loading-animation {
+    text-align: center;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.txt{
+    color: #000000
+}
+
 /* Carousel inner image corner */
 .carousel-inner {
     border-radius: 50px; /* Customize the roundness */
@@ -211,4 +248,100 @@
     margin-top: 2rem;
     font-size: 0.9rem;
     color: #666;
+}
+/* Full width image container */
+.full-width-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Full width image */
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Overlay content */
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* text-align: center; */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px; /* Optional: for rounded corners */
+    width: 100%; /* Adjust width as needed */
+    max-width: 100%; /* Max width for larger screens */
+    max-height: 100%;
+}
+
+/* Responsive text */
+.overlay-content h1 {
+    font-size: 2em; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+
+.overlay-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .overlay-content {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .overlay-content h1 {
+        font-size: 1.5em;
+    }
+
+    .overlay-content p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay-content h1 {
+        font-size: 1.2em;
+    }
+
+    .overlay-content p {
+        font-size: 0.9em;
+    }
+}
+
+.card-container {
+    position: relative;
+    overflow: hidden;
+}
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+.image-zoom:hover {
+    transform: scale(1.1);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 20px;
+}
+.card-container:hover .overlay {
+    opacity: 1;
 }

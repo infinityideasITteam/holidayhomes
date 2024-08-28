@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const loadingOverlay = document.getElementById('loading-overlay');
+  loadingOverlay.style.opacity = '0';
+  setTimeout(() => {
+      loadingOverlay.style.display = 'none';
+  }, 500); // Adjust the timeout duration if needed
+});
+
 // About section Heading and Paragraph Animation
 document.addEventListener("DOMContentLoaded", function() {
     // Function to add animation classes
