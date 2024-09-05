@@ -223,6 +223,7 @@ body {
     }
 
     .header p {
+        padding: 50px 20px;
         font-size: 0.9rem;
     }
 }
