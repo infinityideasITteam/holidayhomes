@@ -220,10 +220,11 @@ body {
 
     .header h1 {
         font-size: 1.5rem;
+        margin-bottom: 10px; /* Decrease this value to reduce the space */
     }
 
     .header p {
-        padding: 50px 20px;
+        margin-top: 5px; /* Adjust if needed to fine-tune spacing */
         font-size: 0.9rem;
     }
 }
