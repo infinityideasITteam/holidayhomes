@@ -105,7 +105,7 @@ body {
     box-shadow: none;
 }
 
-.footer {
+/* .footer {
     background-color: #f8f9fa;
     color: #6c757d;
     padding: 40px 15px;
@@ -171,7 +171,7 @@ body {
     text-align: center;
     font-size: 0.9rem;
     color: #6c757d;
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -201,14 +201,14 @@ body {
         padding: 30px 15px;
     }
 
-    .footer .footer-links {
+    /* .footer .footer-links {
         flex-direction: column;
     }
 
     .footer .social-links a {
         font-size: 1.2rem;
         margin: 0 5px;
-    }
+    } */
 }
 
 /* Extra small devices (phones, less than 576px) */
@@ -272,3 +272,48 @@ font-size: 1rem;
 font-size: 1.5rem;
 }
 }
+
+.footer {
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer h5 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .footer p, .footer ul {
+    font-size: 14px;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li i {
+    margin-right: 10px;
+  }
+  
+  /* Link Styles */
+  .footer a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .footer a:hover {
+    color: #686868;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 576px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .footer .row div {
+      margin-bottom: 20px;
+    }
+  }
+  
