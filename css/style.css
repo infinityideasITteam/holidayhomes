@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background: url('https://via.placeholder.com/1920x1080') no-repeat center center;
+    background: url('../Holiday/Main.webp') no-repeat center center;
     background-size: cover;
     color: white;
     height: 100vh; /* Full viewport height */
