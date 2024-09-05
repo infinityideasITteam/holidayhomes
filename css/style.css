@@ -7,31 +7,47 @@ body {
 }
 
 .header {
-    background: url('../Holiday/Main.webp') no-repeat center center;
-    background-size: cover;
-    color: white;
-    height: 100vh; /* Full viewport height */
-   min-height: 300px;
-    padding: 80px 15px;
     text-align: center;
-    position: relative;
-    justify-content: center; /* Center content vertically */
-    min-height: 300px;
+    padding: 100px 0;
+    background: url('https://via.placeholder.com/1500x800') center/cover no-repeat;
+    color: white;
 }
 
 .header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .header p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .header button {
     margin: 10px;
 }
+
+/* For mobile view */
+@media (max-width: 768px) {
+    .header {
+        padding: 50px 20px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .header button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
 
 .form-container {
     background-color: #ffffff;
@@ -158,7 +174,7 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .header {
+    /* .header {
         padding: 40px 15px;
         min-height: 200px;
     }
@@ -169,7 +185,7 @@ body {
 
     .header p {
         font-size: 1rem;
-    }
+    } */
 
     .navbar .navbar-nav {
         text-align: center;
