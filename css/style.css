@@ -9,7 +9,7 @@ body {
 .header {
     text-align: center;
     padding: 100px 0;
-    background: url('https://via.placeholder.com/1500x800') center/cover no-repeat;
+    background: url('../Holiday/Main.webp') center/cover no-repeat;
     color: white;
 }
 
