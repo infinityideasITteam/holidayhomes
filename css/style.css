@@ -7,9 +7,10 @@ body {
 }
 
 .header {
-    text-align: center;
+    text-align: left;
+    
     padding: 100px 0;
-    background: url('../Holiday/Main.webp') center/cover no-repeat;
+    background: url('../Holiday/bg3.jpg') center/cover no-repeat;
     color: rgb(0, 0, 0);
 }
 
@@ -317,3 +318,8 @@ font-size: 1.5rem;
     }
   }
   
+  .highlight-shadow {
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.6); /* Light yellow shadow */
+    font-weight: bold;
+}
