@@ -8,9 +8,9 @@ body {
 
 .header {
     text-align: left;
-    
+    height: auto;
     padding: 100px 0;
-    background: url('../Holiday/bg10.jpg') center/cover no-repeat;
+    background: url('../Holiday/a1.jpeg') center/cover no-repeat;
     color: rgb(0, 0, 0);
 }
 
