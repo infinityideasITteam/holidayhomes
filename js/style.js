@@ -9,19 +9,6 @@ window.onscroll = function() {myFunction()};
                 navbar.classList.remove("sticky");
             }
         }
-
-//         function calculateRevenue() {
-//             const area = document.getElementById('areaSelect').value;
-//             const bedrooms = document.getElementById('bedroomsSelect').value;
-//             const furnishing = document.getElementById('furnishingSelect').value;
-
-//             if (area && bedrooms && furnishing) {
-//                 alert(`Calculating revenue for: \nArea: ${area}\nBedrooms: ${bedrooms}\nFurnishing: ${furnishing}`);
-//             } else {
-//                 alert('Please select all options to estimate the revenue.');
-//             }
-//         }
-
 function sendToWhatsApp() {
   // Capture form data
   var area = document.getElementById("areaSelect").value;
