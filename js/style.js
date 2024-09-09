@@ -36,7 +36,7 @@ function sendToWhatsApp() {
                     `Furnishing: ${furnishing}`;
 
       // WhatsApp API link
-      var phoneNumber = "7593968558"; // Replace with the recipient's phone number
+      var phoneNumber = "971505875495"; // Replace with the recipient's phone number
       var whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
 
       // Open WhatsApp with the pre-filled message
