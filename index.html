@@ -77,7 +77,7 @@
         
         <h1 class="" style="margin-left: 20px; color:rgb(94, 94, 94)">Royal Infinity Holiday Homes </h1>
         
-        <strong><h3 class="text-dark" style="margin-left: 20px;">Unwind in Limitless Luxury with Royal Infinity Living</h3></strong>
+        <h3 class="text-dark" style="margin-left: 20px;">Unwind in Limitless Luxury with Royal Infinity Living</h3>
         <button type="button" class="btn btn-outline-dark text-black">Book Now</button>
         <button class="btn btn-dark">Manage My Property</button>
         
@@ -88,19 +88,20 @@
         <h3 class="text-center mb-4">Estimate Your Revenue</h3>
         <form id="estimateForm">
             <div class="row">
+                <!-- Area Dropdown -->
                 <div class="col-md-3 mb-3">
                     <select class="form-control" id="areaSelect">
                         <option selected disabled>Area</option>
                         <option>Jumeirah Beach Residence (JBR)</option>
-                        <option>Palm Jumeirah </option>
-                        <option>Downtown Duba</option>
+                        <option>Palm Jumeirah</option>
+                        <option>Downtown Dubai</option>
                         <option>Dubai Marina</option>
                         <option>Dubai Hills</option>
                         <option>Jumeirah Lakes Towers (JLT)</option>
                         <option>Dubai International Financial Centre (DIFC)</option>
                         <option>Arabian Ranches</option>
                         <option>Al Barsha</option>
-                        <option>Jumeirah </option>
+                        <option>Jumeirah</option>
                         <option>JVC</option>
                         <option>JVT</option>
                         <option>IMPZ</option>
@@ -108,22 +109,23 @@
                         <option>Jebel Ali</option>
                         <option>Dubai Silicon Oasis</option>
                         <option>Business Bay</option>
-                        <option>Dubai Sports City</option>\
-                        <option>Dubai south</option>
-                        <option>Emaar Beach front </option>
-                        <option>Creek Harbor </option>
+                        <option>Dubai Sports City</option>
+                        <option>Dubai South</option>
+                        <option>Emaar Beachfront</option>
+                        <option>Creek Harbor</option>
                         <option>Sobha Heathland 1</option>
                         <option>Sobha Heathland 2</option>
                         <option>Port De La Mer</option>
-                        <option>Gahrood </option>
-                        <option>Marin Time city</option>
-                        <option>Port Rashid </option>
-                        <!-- <option></option> -->
+                        <option>Gahrood</option>
+                        <option>Maritime City</option>
+                        <option>Port Rashid</option>
                     </select>
                 </div>
+    
+                <!-- Bedrooms Dropdown -->
                 <div class="col-md-3 mb-3">
                     <select class="form-control" id="bedroomsSelect">
-                        <option selected disabled>Bedrooms</option>
+                        <option selected disabled>Villas</option>
                         <option>Studio</option>
                         <option>1 Bedroom</option>
                         <option>2 Bedrooms</option>
@@ -133,6 +135,19 @@
                         <option>6 Bedrooms</option>
                     </select>
                 </div>
+    
+                <!-- New Option Menu Dropdown (for example: Property Type) -->
+                <div class="col-md-3 mb-3">
+                    <select class="form-control" id="propertyType">
+                        <option selected disabled>Property Type</option>
+                        <option>Apartment</option>
+                        <option>Villa</option>
+                        <!-- <option>Townhouse</option>
+                        <option>Penthouse</option> -->
+                    </select>
+                </div>
+    
+                <!-- Furnishing Status Dropdown -->
                 <div class="col-md-3 mb-3">
                     <select class="form-control" id="furnishingSelect">
                         <option selected disabled>Furnishing Status</option>
@@ -141,21 +156,15 @@
                         <option>Unfurnished</option>
                     </select>
                 </div>
-                <!-- <div class="col-md-2 mb-3">
-                    <select class="form-control" id="furnishingSelect">
-                        <option selected disabled>Furnishing Status</option>
-                        <option>Furnished</option>
-                        <option>Semifurnished</option>
-                        <option>Unfurnished</option>
-                    </select>
-                </div> -->
-                <div class="col-md-3 mb-3">
+    
+                <!-- Calculate Button -->
+                <div class="col-md-12 mb-3">
                     <button type="button" class="btn btn-dark btn-block" onclick="sendToWhatsApp()">Calculate</button>
                 </div>
             </div>
         </form>
     </div>
-
+    
     <div id="about" class="about-section container">
         <div class="row">
             <div class="col-md-6 mb-4 mb-md-0 d-flex flex-column justify-content-center" data-aos="fade-up">
@@ -244,7 +253,7 @@
                 </div>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
                     <div class="card-body">
-                        Yes! Absolutely. Book a call or meeting with us or drop us a <a href="https://wa.me/+971505875495?text=hey">whatsapp</a>message to assist you.
+                        Yes! Absolutely. Book a call or meeting with us or drop us a <a href="https://wa.me/+971505875495?text=hey">whatsapp</a> message to assist you.
                     </div>
                 </div>
             </div>

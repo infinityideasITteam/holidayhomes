@@ -26,13 +26,16 @@ function sendToWhatsApp() {
   // Capture form data
   var area = document.getElementById("areaSelect").value;
   var bedrooms = document.getElementById("bedroomsSelect").value;
+  var property = document.getElementById("propertyType").value;
   var furnishing = document.getElementById("furnishingSelect").value;
+  
 
   // Validate that the user has selected all fields
-  if (area && bedrooms && furnishing) {
+  if (area && bedrooms && property && furnishing) {
       // Construct the WhatsApp message
       var message = `Area: ${area}%0A` + 
                     `Bedrooms: ${bedrooms}%0A` + 
+                    `Property: ${property}%0A` + 
                     `Furnishing: ${furnishing}`;
 
       // WhatsApp API link
