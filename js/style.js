@@ -45,3 +45,27 @@ function sendToWhatsApp() {
       alert("Please fill in all the fields.");
   }
 }
+
+function getInto() {
+    // Capture form data
+    var namee = document.getElementById("namee").value;
+    var email = document.getElementById("email").value;
+    var message1 = document.getElementById("message1").value;
+  
+    // Validate that the user has selected all fields
+    if (namee && email && message1) {
+        // Construct the WhatsApp message
+        var message = `Name: ${namee}%0A` + 
+                      `Email: ${email}%0A` + 
+                      `Message: ${message1}`;
+  
+        // WhatsApp API link
+        var phoneNumber = "971505875495"; // Replace with the recipient's phone number
+        var whatsappMess = `https://wa.me/${phoneNumber}?text=${message}`;
+  
+        // Open WhatsApp with the pre-filled message
+        window.open(whatsappMess, '_blank');
+    } else {
+        alert("Please fill in all the fields.");
+    }
+  }
