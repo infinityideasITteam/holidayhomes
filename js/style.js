@@ -45,7 +45,7 @@ function getInto() {
     // Validate that the user has selected all fields
     if (namee && email && message1) {
         // Construct the WhatsApp message
-        var message = `Name: ${namee}%0A` + 
+        var message = `Get into Touch %0A Name: ${namee}%0A` + 
                       `Email: ${email}%0A` + 
                       `Message: ${message1}`;
   
